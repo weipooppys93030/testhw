@@ -2,6 +2,6 @@
 main()
 	{
 		int	n;
-		for (n=40;n<48;n++)
-			PrintInt(n);
+		for (n=9;n>5;n--)
+			PrintInt(OSAdd(n,n+1));
 	}
