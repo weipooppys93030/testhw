@@ -1,0 +1,7 @@
+#include "syscall.h"
+main()
+	{
+		int	n;
+		for (n=90;n>75;n--)
+			PrintInt(n);
+	}
